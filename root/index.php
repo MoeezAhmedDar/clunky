@@ -71,11 +71,13 @@ Error:
 *, ::after, ::before{
 box-sizing:border-box;
 }
+.this:hover {
+        background-color: #990000;
+      }
 
    
 </style>
 <body>
-
 
 <div class="container-fluid">
 	<div class="row">
@@ -107,10 +109,15 @@ box-sizing:border-box;
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a href="../root/index.php">
-      <button class="btn btn-outline-success" style="background-color: #990000" type="button">HOME</button>
+      <button class="btn" style="background-color: #990000" type="button">HOME</button>
     </a>
-      <a class="nav-item nav-link" href="../root/store.html">MENU</a>
-      <a class="nav-item nav-link" href="../root/deals.html">DEALS</a>
+    <a href="../root/store.html">
+      <button class="btn this " type="button">MENU</button>
+    </a>
+    <a href="../root/deals.html">
+      <button class="btn this" type="button">DEALS</button>
+    </a>
+
     </div>
   </div>
 </nav>
@@ -209,7 +216,7 @@ box-sizing:border-box;
           <ul class="list-unstyled">
             <li><a href="../root/aboutUs.html">ABOUT US</a></li>
             <li><a href="../root/franchising.php">FRANCHISING</a></li>
-            <li><a href="../root/ contactUs.php">CONTACT US</a></li>
+            <li><a href="../root/contactUs.php">CONTACT US</a></li>
           </ul>
         </div>
       </div>

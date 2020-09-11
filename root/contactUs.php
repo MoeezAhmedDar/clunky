@@ -71,6 +71,9 @@ Error:
 *, ::after, ::before{
 box-sizing:border-box;
 }
+.this:hover {
+        background-color: #990000;
+      }
 
    
 </style>
@@ -106,9 +109,15 @@ box-sizing:border-box;
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="../root/index.php">HOME</a>
-      <a class="nav-item nav-link" href="../root/store.html">MENU</a>
-      <a class="nav-item nav-link" href="../root/deals.html">DEALS</a>
+<a href="../root/index.php">
+      <button class="btn this" type="button">HOME</button>
+    </a>
+    <a href="../root/store.html">
+      <button class="btn this " type="button">MENU</button>
+    </a>
+    <a href="../root/deals.html">
+      <button class="btn this" type="button">DEALS</button>
+    </a>
     </div>
   </div>
 </nav>
